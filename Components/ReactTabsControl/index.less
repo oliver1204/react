@@ -1,0 +1,38 @@
+.container,
+.container * {
+    box-sizing: border-box;  
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    border: 1px solid #999;
+}
+.tab-title-items {
+    display: flex;
+    margin: 0;
+    font-size: .3rem;
+    color: #464646;
+    background-color: #fff;
+    padding: 0;
+    .tab-title-item {
+        width: 50%;
+        text-align: center;
+        padding: .3rem 0 .29rem;
+        list-style: none;
+        margin: 0 .73rem;
+    }
+    .active {
+        color: #467DB9;
+        border-bottom: .04rem solid #467DB9;
+    }
+}
+
+.tab-content-items {
+    .tab-content-item {
+        display: none;
+    }
+    .active {
+        display: block;
+    }
+}
