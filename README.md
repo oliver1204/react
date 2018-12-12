@@ -15,3 +15,12 @@ Components 中是本人在目前项目中使用的组件
 * [react ref 篇](https://github.com/olifer655/react/issues/2)
 
 * [React之key详解](https://github.com/olifer655/react/issues/3)
+
+* [使用闭包提升你的 React 性能 -- memoize-one](https://github.com/olifer655/react/issues/7)
+
+* [为什么要写 super(props)](https://github.com/olifer655/react/issues/8)
+
+* [react 16 生命周期的变化](https://github.com/olifer655/react/issues/3)
+
+
+
