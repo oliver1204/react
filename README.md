@@ -22,5 +22,6 @@ Components 中是本人在目前项目中使用的组件
 
 * [react 16 生命周期的变化](https://github.com/olifer655/react/issues/3)
 
+* [react 16 生命周期的变化](https://github.com/olifer655/react/issues/3)
 
-
+* [React element 究竟是什么？](https://github.com/olifer655/react/issues/11)
