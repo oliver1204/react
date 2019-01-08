@@ -20,8 +20,6 @@ Components 中是本人在目前项目中使用的组件
 
 * [为什么要写 super(props)](https://github.com/olifer655/react/issues/8)
 
-* [react 16 生命周期的变化](https://github.com/olifer655/react/issues/3)
-
-* [react 16 生命周期的变化](https://github.com/olifer655/react/issues/3)
+* [React之key详解](https://github.com/olifer655/react/issues/3)
 
 * [React element 究竟是什么？](https://github.com/olifer655/react/issues/11)
