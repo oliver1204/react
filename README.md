@@ -25,3 +25,7 @@ Components 中是本人在目前项目中使用的组件
 * [React element 究竟是什么？](https://github.com/olifer655/react/issues/11)
 
 * [react 16 生命周期的变化](https://github.com/olifer655/react/issues/9)
+
+* [reacte 的 Fiber 概念](https://github.com/olifer655/react/issues/13)
+
+* [React 中 setState() 为什么是异步的](https://github.com/olifer655/react/issues/12)
