@@ -29,3 +29,5 @@ Components 中是本人在目前项目中使用的组件
 * [reacte 的 Fiber 概念](https://github.com/olifer655/react/issues/13)
 
 * [React 中 setState() 为什么是异步的](https://github.com/olifer655/react/issues/12)
+
+* [JSX](https://github.com/olifer655/react/issues/16)
