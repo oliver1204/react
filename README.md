@@ -33,3 +33,6 @@ Components 中是本人在目前项目中使用的组件
 * [JSX](https://github.com/olifer655/react/issues/16)
 
 * [React.Component 和函数组件](https://github.com/olifer655/react/issues/17)
+
+* [React合成事件 —— SyntheticEvent](https://github.com/olifer655/react/issues/18)
+
