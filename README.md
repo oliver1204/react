@@ -36,3 +36,5 @@ Components 中是本人在目前项目中使用的组件
 
 * [React合成事件 —— SyntheticEvent](https://github.com/olifer655/react/issues/18)
 
+* [高阶组件 (HOC)](https://github.com/olifer655/react/issues/20)
+
