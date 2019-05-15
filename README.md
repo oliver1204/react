@@ -23,6 +23,7 @@ Components 中是本人在目前项目中使用的组件
 
 * [CommonJS syntax and ES Module syntax to import React](https://github.com/olifer655/react/issues/21)
 
+* [React 和 TypeScript 结合](https://github.com/olifer655/react/issues/22)
 
 ### react 杂谈
 
