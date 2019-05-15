@@ -21,7 +21,7 @@ Components 中是本人在目前项目中使用的组件
 
 * [高阶组件 (HOC)](https://github.com/olifer655/react/issues/20)
 
-* [CommonJS syntax and ES Module syntax to improt React](https://github.com/olifer655/react/issues/21)
+* [CommonJS syntax and ES Module syntax to import React](https://github.com/olifer655/react/issues/21)
 
 
 ### react 杂谈
