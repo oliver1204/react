@@ -8,8 +8,24 @@ Components 中是本人在目前项目中使用的组件
 * 无限加载（ReactLoadMore）
 * 列表空状态（NoDate）
 
+### react 项目架构
+* [React element 究竟是什么？](https://github.com/olifer655/react/issues/11)
 
-### react 知识点
+* [react 16 生命周期的变化](https://github.com/olifer655/react/issues/9)
+
+* [reacte 的 Fiber 概念](https://github.com/olifer655/react/issues/13)
+
+* [React.Component 和函数组件](https://github.com/olifer655/react/issues/17)
+
+* [React合成事件 —— SyntheticEvent](https://github.com/olifer655/react/issues/18)
+
+* [高阶组件 (HOC)](https://github.com/olifer655/react/issues/20)
+
+* [CommonJS syntax and ES Module syntax to improt React](https://github.com/olifer655/react/issues/21)
+
+
+### react 杂谈
+
 * [状态管理（this.state）篇](https://github.com/olifer655/react/issues/1)
 
 * [react ref 篇](https://github.com/olifer655/react/issues/2)
@@ -20,21 +36,9 @@ Components 中是本人在目前项目中使用的组件
 
 * [为什么要写 super(props)](https://github.com/olifer655/react/issues/8)
 
-* [React之key详解](https://github.com/olifer655/react/issues/3)
-
-* [React element 究竟是什么？](https://github.com/olifer655/react/issues/11)
-
-* [react 16 生命周期的变化](https://github.com/olifer655/react/issues/9)
-
-* [reacte 的 Fiber 概念](https://github.com/olifer655/react/issues/13)
-
 * [React 中 setState() 为什么是异步的](https://github.com/olifer655/react/issues/12)
 
 * [JSX](https://github.com/olifer655/react/issues/16)
 
-* [React.Component 和函数组件](https://github.com/olifer655/react/issues/17)
 
-* [React合成事件 —— SyntheticEvent](https://github.com/olifer655/react/issues/18)
-
-* [高阶组件 (HOC)](https://github.com/olifer655/react/issues/20)
 
