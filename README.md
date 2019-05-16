@@ -33,6 +33,10 @@ Components 中是本人在目前项目中使用的组件
 
 * [React之key详解](https://github.com/olifer655/react/issues/3)
 
+* [vue, react, 小程序 子父组件间的通讯](https://github.com/olifer655/randomNotes/issues/78)
+
+* [react](https://github.com/olifer655/react)
+
 * [使用闭包提升你的 React 性能 -- memoize-one](https://github.com/olifer655/react/issues/7)
 
 * [为什么要写 super(props)](https://github.com/olifer655/react/issues/8)
