@@ -15,19 +15,19 @@ class LoadMore extends Action {
 
     render() {
         let state = this.state;
-        return(
+        return (
             <div className={state.classN}>
                 {this.props.children}
 
                 <div className="loadMoreFooter">
                     {
-                        state.status === 'hasLoaderMore' ?
-                        <img src={require('../../images/waitting.gif')} alt=""/> : ''
+                        state.status === 'loading' ?
+                            <img src={require('../../images/waitting.gif')} alt=""/> : ''
                     }
                     <span>{this.data.tips[state.status]}</span>
                 </div>
             </div>
-        )
+        );
     }
 }
 

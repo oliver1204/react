@@ -1,9 +1,9 @@
-### 组件说明
+### explain
 
-* 必选参数
+* required params
     initIndex: number -- 初始tab 
 
-* 可选参数
+* optional params
     tabsClass: string  -- tab group 的样式
     tabClass: string   -- tab 的样式， 若填则采用默认样式
 
@@ -14,8 +14,7 @@
 
 ```js
 
-import TabsControl from '../Components/TabsControl/index';
-import Tab from '../Components/TabsControl/Tab/index';
+import TabsControl from '../Components/ReactTabsControl/index';
 
 let tabs = [{
     index: 0,
@@ -24,14 +23,21 @@ let tabs = [{
     index: 1,
     name: '我点赞的' 
 }];
+let currentIndex = 0;
+
+function choiceTabs(index: number | string) {
+    this.setState({
+        currentIndex: index
+    })
+}
 
 <TabsControl 
     initIndex={this.state.currentIndex} 
-    handleClick={this.choiceTbas.bind(this)}>
+    handleClick={this.choiceTabs.bind(this)}>
     {
         pthis.state.tabs.map((child, cindex) => {
             return (
-                <Tab title={child.name} key={cindex}></Tab>
+                <TabsControl.Item title={child.name} key={cindex}></TabsControl.Item>
             )
         }) 
     }
@@ -41,3 +47,8 @@ let tabs = [{
 
 ### 后续将会添加
 切换时候的样式
+
+### Author
+If you encounter any questions, please call me. 
+my mail address is 348560971@qq.com.
+@ziran.liu

@@ -1,0 +1,63 @@
+._ModelEnter {
+    .mask {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.6);
+        .modelWap {
+            width: 74.7%;
+            max-width: 5rem;
+            background: #FFF;
+            border-radius: 0.08rem;
+            left: 50%;
+            position: absolute;
+            top: 2.5rem;
+            transform: translate3D(-50%, 0, 0);
+            .content {
+                padding: 0.50rem 0.4rem 0.3rem 0.4rem;
+                box-sizing: border-box;
+                width: 100%;
+                text-align: center;
+                vertical-align: middle;
+                color: #464646;
+                .title {
+                    font-size: 0.36rem;
+                    color: #313846;
+                }
+                .label {
+                    font-size: 0.30rem;
+                    color: #959595;
+                    margin-top: 0.18rem;
+                    padding: 0 .6rem;
+                }
+            }
+            .btns {
+                position: relative;
+                font-size: 0.32rem;
+                text-align: center;
+                height: 1rem;
+                line-height: 1rem;
+                color: #467DB9;
+                display: flex;
+                justify-content: center;
+                .btn-left {
+                    color: #464646;
+                    text-align: center;
+                    position: relative;
+                    width: 50%;
+                }
+                .btn-right {
+                    color: #467DB9;
+                    text-align: center;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+.ModelOut {
+    display: none;
+}

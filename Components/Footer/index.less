@@ -1,0 +1,48 @@
+.FooterWrap {
+    height: 1.5rem;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+    .footer {
+        height: 1.05rem;
+        position: fixed;
+        display: flex;
+        height: 1.35rem;
+        background: #FFF;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        z-index: 10;
+        font-size: 0;
+        text-align: center;
+        padding-right: .3rem;
+        box-sizing: border-box;
+        padding-bottom: constant(safe-area-inset-bottom);
+        padding-bottom: env(safe-area-inset-bottom);
+        box-shadow: 0 -4px 8px 0 rgba(184, 184, 184, 0.18);
+        .btn {
+            flex: 1;
+            line-height: 0.84rem;
+            border-radius: 0.1rem;
+            border: 1px solid #2F7DCD;
+            height: 0.84rem;
+            font-size: 0.32rem;
+            color: #FFFFFF;
+            border: 0;
+            margin: auto;
+            margin-left: .3rem;
+            background: #2F7DCD;
+        }
+        .primary {
+            background: #fff;
+            color: #2F7DCD;
+            border: 1px solid #2F7DCD;
+        }
+        .default {
+            background-color: #2F7DCD;
+            color: #FFFFFF;
+        }
+        .disabled {
+            background-color: #A6C5E5;
+        }
+    }
+}

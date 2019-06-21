@@ -29,10 +29,8 @@ class ReactSticky extends React.Component<Props, State> {
         let stickyTop = this.state.stickyTop;
         let zIndex = this.state.zIndex;
 
-
         element.style.position = '-webkit-sticky';
         element.style.position = 'sticky';
-
         if (~element.style.position.indexOf('sticky')) {
             element.style.top = `${stickyTop}px`;
             element.style.zIndex = zIndex;
@@ -44,7 +42,7 @@ class ReactSticky extends React.Component<Props, State> {
         elementChild.style.right = 0;
         elementChild.style.top = `${stickyTop}px`;
         elementChild.style.zIndex = zIndex;
-
+        
         let active = false;
 
         const check = () => {

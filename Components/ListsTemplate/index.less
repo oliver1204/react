@@ -1,0 +1,61 @@
+.ReactListsModel {
+    .top20 {
+        height: 0.2rem;
+        background: #F5F5F5;
+        position: relative;
+    }
+    .top30 {
+        height: 0.3rem;
+        background: #F5F5F5;
+        position: relative;
+    }
+    .line {
+        position: relative;
+    }
+    .reactWraps {
+        position: relative;
+        background: #FFF;
+        .reactWrap {
+            position: relative;
+            margin-left: 0.3rem;
+        }
+        .list {
+            display: flex;
+            justify-content: space-between;
+            line-height: 0.92rem;
+            position: relative;
+            margin-left: .3rem;
+        }
+        .bottom_1px_line {
+            &:last-child::after {
+                opacity: 0;
+            }
+        }
+        .from {
+            display: flex;
+            font-size: .3rem;
+            color: #464646;
+            position: relative;
+            padding: .25rem 0;
+            .key {
+                flex: 1;
+                .required {
+                    color: #FF0000;
+                    margin-left: .1rem;
+                }
+            }
+            .value {
+                flex: 3;
+                > input {
+                    border: 0;
+                    font-size: .3rem;
+                    width: 92%;
+                    line-height: .43rem;
+                }
+            }
+            &:last-child {
+                position: static;
+            }
+        }
+    } 
+}    

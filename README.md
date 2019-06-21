@@ -10,6 +10,7 @@ Components 中是本人在目前项目中使用的组件目前有下面这些，
 * 滑动开关(Switch),
 * 标签页(Tabs),
 * 轻提示(Toast)
+util.js 是封装的fetch 方法，欢迎共同探讨。
 
 ### react 项目架构
 * [React element 究竟是什么？](https://github.com/olifer655/react/issues/11)

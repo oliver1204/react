@@ -3,6 +3,7 @@
 */
 
 import * as React from 'react';
+import Tab from './Tab/index';
 
 import {
     State,
@@ -14,6 +15,7 @@ class Action extends React.Component<Props, State> {
         currentIndex: undefined,
         flag: false
     }
+    static Item = Tab;
 
     static defaultProps: Props = {
         initIndex: undefined,

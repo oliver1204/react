@@ -1,0 +1,52 @@
+.toastEnter {
+    .toastInnerBox {
+        color: #FFF;
+        z-index: 101;
+        font-size: 0.26rem;
+        line-height: 0.3rem;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate3D(-50%, -50%, 0);
+        text-align: center;
+        word-break: break-all;
+        border-radius: 0.06rem;
+        background: rgba(76, 76, 76, 0.9);
+        .toastInnerText {
+            width: 4.24rem;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 0.72rem;
+            color: #FFF;
+            padding: 0 .2rem;
+        }
+        .toastInnerImg {
+            padding-top: 0.4rem;
+            img {
+                height: 1rem;
+                display: block;
+                margin: 0 auto;
+            }
+            .loadingStyle {
+                height: .68rem;
+                margin: .1rem auto .2rem;
+            }
+        }
+    }
+    .toastImgBox {
+        width: 2.4rem;
+        height: 2.4rem;
+        span {
+            display: inline-block;
+            font-size: 0.26rem;
+            color: #FFFFFF;
+            line-height: 0.3rem;
+            margin-top: .2rem;
+        }
+    }
+}
+
+.toastOut {
+    display: none; 
+}

@@ -1,6 +1,6 @@
-### 组件说明
+### explain
 
-* 可选参数
+* optional params
     stickyTop: number  -- tabs 距顶部的距离
     zIndex: string   -- z-index 值
 
@@ -32,4 +32,9 @@ let tabs = [{
     </div>
 </ReactSticky>
 
-```  
+``` 
+
+### Author
+If you encounter any questions, please call me. 
+my mail address is 348560971@qq.com.
+@ziran.liu

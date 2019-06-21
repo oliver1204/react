@@ -1,8 +1,3 @@
-/*
-    loaderMore： 加载更多ajax 函数
-    hasLoaderMore：是否还有更多的内容需要加载
-*/
-
 import * as React from 'react';
 
 import {
@@ -50,8 +45,10 @@ class Action extends React.Component<Props, State> {
         } else {
             prevState.hasLoaderMore = false;
             prevState.status = 'done';
-        }  
-                
+        }
+        if ('classN' in nextProps) {
+            prevState.classN = nextProps.classN;
+        }
         return prevState;     
     }
 
@@ -60,7 +57,7 @@ class Action extends React.Component<Props, State> {
 
         this.setState({
             classN: this.props.classN
-        })
+        });
     }
 
     componentDidUpdate(props: Props, state: State) {
@@ -81,7 +78,7 @@ class Action extends React.Component<Props, State> {
     loadMoreFlow() {
         this.setState({
             status: 'loading'
-        })
+        });
         this.data.loadMore(this.props.LoadMoreParams - 0);
     }
     timeoutCallback() {
