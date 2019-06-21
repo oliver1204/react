@@ -1,12 +1,15 @@
 ### 项目简介
 
-Components 中是本人在目前项目中使用的组件
-目前有： 
-
-* 粘性吸顶（ReactSticky）
-* tab 切换（ReactTabsControl）
-* 无限加载（ReactLoadMore）
+Components 中是本人在目前项目中使用的组件目前有~ 封装一个属于自己公司的ant-design未尝不可啊： 
+* 底部按钮（Footer）,
+* 列表模版（ListsTemplate）,
+* 无限加载（LoadMore）
+* 对话框（Model) 包括: Alert,Confirm,
 * 列表空状态（NoDate）
+* 粘性吸顶（Sticky）
+* 滑动开关(Switch),
+* 标签页(Tabs),
+* 轻提示(Toast)
 
 ### react 项目架构
 * [React element 究竟是什么？](https://github.com/olifer655/react/issues/11)
