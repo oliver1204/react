@@ -6,7 +6,7 @@
 
 * [react 16 生命周期的变化](https://github.com/olifer655/react/issues/9)
 
-* [reacte 的 Fiber 概念](https://github.com/olifer655/react/issues/13)
+* [react 的 Fiber 概念](https://github.com/olifer655/react/issues/13)
 
 * [React.Component 和函数组件](https://github.com/olifer655/react/issues/17)
 
