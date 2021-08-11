@@ -20,6 +20,8 @@
 
 ### react 杂谈
 
+* [好用相关第三方控件](https://github.com/olifer655/react/issues/24)
+
 * [状态管理（this.state）篇](https://github.com/olifer655/react/issues/1)
 
 * [react ref 篇](https://github.com/olifer655/react/issues/2)
